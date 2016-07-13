@@ -33,7 +33,11 @@ plot(height, weight, cex = 2)
 plot(height, weight, cex = 2, col = "red")
 plot(height, weight, cex = 2, col = "#FFBF00")
 plot(height, weight, cex = 2, col = "red",pch = 20)
-sample <- read.csv("C:/Workspace/iris.csv")
+#-----------------------------------------------------------------------------------------
+# set work directory my project
+setwd("C:/Users/sanchangon/Documents/GitHub/R-Spatial-training")
+getwd()
+sample <- read.csv("iris.csv")
 sample
 head(sample)
 tail(sample)
